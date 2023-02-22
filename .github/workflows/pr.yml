@@ -60,8 +60,7 @@ jobs:
       - uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: |
-            preview
-          
+            preview 
           repository: bhumi46/argocd-course-webapp
           issue-number: ${{ github.event.issue.number }}
         env:
