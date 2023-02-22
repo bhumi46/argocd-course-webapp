@@ -64,6 +64,6 @@ jobs:
           repository: bhumi46/argocd-course-webapp
           issue-number: ${{ github.event.issue.number }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
 
